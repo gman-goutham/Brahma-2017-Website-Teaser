@@ -1,0 +1,166 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body
+{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 150%;
+  color: #000 !important;
+  background-color: #fff;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/*.overlay {
+    height: 100vh;
+}*/
+#map {
+    height: 400px;
+    width: 70%;
+    left: 140px;
+}
+
+.c_banner_left
+{
+  padding-top: 7% !important; 
+}
+.c_banner_left img
+{
+  max-height: 450px;
+}
+.c_banner_right
+{
+  padding-top: 15% !important; 
+}
+
+#video_modal
+{
+  background-color: #000;
+
+}
+#video_modal iframe
+{
+width: 100%;
+height: 100%;
+min-height: 350px;
+}
+
+
+ .mono {font-family: 'Monoton', cursive;}
+
+.facebook{
+    background-color: #3b5998 !important;
+    padding: 7px; !important
+}
+
+.twitter{
+    background-color: #1DA1F2 !important;
+    padding: 7px 8px; !important
+}
+
+.youtube{
+    background-color: #E62117 !important;
+    padding: 8px; !important
+}
+
+.insta{
+    background-image: url(../img/instabg.jpg)  !important;
+    padding: 7px 8px; !important
+}
+.college{
+    background-color: #000000; !important
+}
+.college:hover{
+    background-color: #8e44ad; !important
+}
+.mybg{
+    /*background-image: url('img/particles.jpg'); !important*/
+
+}
+.mynav{
+      z-index:999;
+}
+
+.c_subscribe
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.c_prev_sponsors {
+ 
+  padding: 15px;
+}
+.c_prev_sponsors img
+{
+  max-height: 400px;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+
+.myimg-circle {
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    border-radius: 50%;
+}
+
+.mybtn
+{
+    border: 2px solid black; 
+    visibility: hidden;
+}
+
+#main_title
+{
+  display: inline;
+  font-size: 3.5em;
+}
+#sub_title
+{
+  display: inline;
+  font-size: 1.5em;
+}
+
+.typed-cursor{
+   font-size: 1.5em;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+   #particles-js {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

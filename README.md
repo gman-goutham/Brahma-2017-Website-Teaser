@@ -1,6 +1,6 @@
 # Brahma 2017 Website Teaser
 
-Preview: https://inspiring-mclean-96d55f.netlify.com/
+Preview: https://brahma.netlify.com/
 
 #### About
 
